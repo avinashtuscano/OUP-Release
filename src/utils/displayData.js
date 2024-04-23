@@ -1,11 +1,10 @@
 import { getElement } from "./utils.js";
 
-const envContainer = getElement(".env-container");
+const envContainer = getElement(".edu-section-center");
 
 function displayData(data) {
-  console.log(data);
-
-  const releaseData = `<article class="environment">
+  const releaseData = `<div class="env-container">
+  <article class="environment">
           <div class="env-header">
             <h5 class="env-name">${data.Dev.env}</h5>
             <h5 class="env-status">Dummy - Online</h5>
@@ -166,7 +165,8 @@ function displayData(data) {
               <p>EAC</p>
               <p>Dummy - v27.1.0-rc0</p>
             </div>
-            </article>`;
+            </article>
+            </div>`;
 
   envContainer.innerHTML = releaseData;
 }

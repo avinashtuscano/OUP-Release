@@ -237,7 +237,7 @@ ul {
   animation: spinner 0.6s linear infinite;
 }
 .loading {
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 /* title */
 
@@ -416,6 +416,12 @@ main {
   color: var(--red-dark);
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+.home {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
