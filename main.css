@@ -261,19 +261,24 @@ OUP - Release
 .rm-header {
   height: 5rem;
   margin-top: 5rem;
-  color: var(--white);
+  color: var(--primary-500);
 }
 
 main {
   min-height: calc(100vh - 10rem);
   display: grid;
   place-items: center;
+  /* margin-top: 1rem; */
 }
 
 .section-center {
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+.division-container {
+  margin-top: 5rem;
 }
 
 .division {
@@ -331,6 +336,12 @@ main {
 @media screen and (min-width: 992px) {
   .division-container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .division-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
