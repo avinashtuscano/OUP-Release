@@ -261,7 +261,7 @@ OUP - Release
 .rm-header {
   height: 5rem;
   margin-top: 5rem;
-  color: var(--primary-500);
+  color: var(--primary-300);
 }
 
 main {
