@@ -11,13 +11,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.Dev.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+    
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
@@ -38,13 +35,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.Test.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+    
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
@@ -65,13 +59,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.Perf.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+   
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
@@ -92,13 +83,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.UAT.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
@@ -119,13 +107,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.PreProd.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+    
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
@@ -146,13 +131,10 @@ function displayData(data) {
           </div>
           <div class="env-info">
             <div class="release">
-              <p>Release</p>
+              <p>EPS</p>
               <p>${data.Prod.version}</p>
             </div>
-            <div class="release">
-              <p>CES</p>
-              <p>Dummy - v27.4.0-rc.6</p>
-            </div>
+   
             <div class="release">
               <p>Auth0</p>
               <p>Dummy - v1.3.4-rc.1</p>
