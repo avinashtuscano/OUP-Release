@@ -365,7 +365,8 @@ main {
   color: var(--primary-500);
 }
 
-.edu-section-center {
+.edu-section-center,
+.aca-section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);

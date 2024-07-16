@@ -19,6 +19,10 @@ export const ODAPI_fetchData = async (URL) => {
     if (!response.ok) {
       throw new Error("Could not fetch data. Please check URL");
     }
+    const data = await response.json();
+    // console.log(data);
+    const { code_version: version } = data;
+    return { version };
   } catch (error) {}
 };
 
